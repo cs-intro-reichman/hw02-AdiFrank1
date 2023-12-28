@@ -12,7 +12,7 @@ for (int i=n-1; i>=0; i--)
 	}
 
 		System.out.println (z);
-		System.out.println ("the mid is" + z.charAt(mid));
+		System.out.println ("the mid is " + z.charAt(mid));
 
 }
 

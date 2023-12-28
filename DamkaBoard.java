@@ -9,7 +9,7 @@ for (int i=0;i<num;i++)
 
 for (int i=0; i<num;i++)
 	if (i%2!=0)
-		System.out.println (" "+ z);
+		System.out.println (" "+z);
 	else 
 		System.out.println (z);
 
