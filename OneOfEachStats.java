@@ -49,17 +49,17 @@ for (int i=0;i<=num;i++)
 System.out.println (" ");
 double avg = countChild/num;
 System.out.println("Average: " +avg+ " children to get at least one of each gender.");
-System.out.println("number of families with 2 childern: " + family2);
-System.out.println("number of families with 3 childern: " + family3);
-System.out.println("number of families with 4 or more children: " + family4);
+System.out.println("Number of families with 2 childern: " + family2);
+System.out.println("Number of families with 3 childern: " + family3);
+System.out.println("Number of families with 4 or more children: " + family4);
 
 if ((family2>family4) && (family2>family3))
-	System.out.println ("the most common number of children is 2.");
+	System.out.println ("The most common number of children is 2.");
 else
 	if ((family3>family4) && (family3>family2))
-	System.out.println ("the most common number of children is 3.");
+	System.out.println ("The most common number of children is 3.");
 else
-	System.out.println ("the most common number of children is 4 or more.");
+	System.out.println ("The most common number of children is 4 or more.");
 
 
 }
