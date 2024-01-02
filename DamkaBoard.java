@@ -9,7 +9,7 @@ while (i<num)
 	int r = 0;
 	while (r<num)
 	{
-	if (i%2 !=0 && r== num-1)
+	if (i%2 !=0 && r == num-1)
 	{	
 		System.out.print ("*");
 }
@@ -20,15 +20,14 @@ while (i<num)
 	r++;
 }
 
-	if (i%2==0)
-	{	
-		System.out.println();
-		System.out.print(" ");
+	if (i%2!=0)
+	{
+		System.out.println ();	
 	}
 	else
 	{
-		System.out.println ();
-	}
+		System.out.println();
+		System.out.print(" ");	}
 
 	i++;
 	}
