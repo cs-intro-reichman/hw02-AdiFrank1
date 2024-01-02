@@ -21,7 +21,7 @@ for(int i=1; i<a; i++)
 }
 
 if (sum == a)	
-		{System.out.println(a + " is a perfect number since " + a + " = " + s);
+		{System.out.println(a + " is a perfect number since " + a + " =" + s);
 	}
 else
 		{	System.out.println(a + " is not a perfect number");
