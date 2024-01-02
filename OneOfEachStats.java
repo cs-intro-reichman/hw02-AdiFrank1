@@ -23,11 +23,11 @@ for (int i=0;i<=num;i++)
 	while (g==false || b==false)
 {
 	if (bORg<0.5)
-		{g = true;
-		System.out.print("g ");}
+		g = true;
+		
 	if (bORg>=0.5 && bORg<1 )
-		{b = true;
-		System.out.print("b ");}
+		b = true;
+		
 
 		current++;
 		countChild++;
