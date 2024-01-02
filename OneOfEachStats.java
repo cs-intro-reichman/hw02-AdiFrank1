@@ -32,6 +32,7 @@ for (int i=0;i<=num;i++)
 		current++;
 		countChild++;
 		bORg = (double) ((generator.nextDouble () * (1-0))+0);
+
 	}
 
 
@@ -41,10 +42,10 @@ for (int i=0;i<=num;i++)
 			family3++;
 		if (current>=4)
 			family4++;
-
 		g = false;
 		b = false;
 		current = 0;
+		
 }
 System.out.println (" ");
 double avg = countChild/num;
