@@ -18,7 +18,7 @@ int family2=0;
 int family3=0;
 int family4=0;
 
-for (int i=0;i<=num;i++)
+for (int i=0;i<num;i++)
 {
 	while (g==false || b==false)
 {
