@@ -24,10 +24,10 @@ for (int i=0;i<=num;i++)
 {
 	if (bORg<0.5)
 		{g = true;
-		System.out.print("g ");}
+		System.out.print("g");}
 	if (bORg>=0.5 && bORg<1 )
 		{b = true;
-		System.out.print("b ");}
+		System.out.print("b");}
 
 		current++;
 		countChild++;
